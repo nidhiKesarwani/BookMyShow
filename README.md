@@ -11,13 +11,19 @@ This is a project to implement ticket booking requirements in BookMyShow.
 
 ![image](https://github.com/nidhiKesarwani/BookMyShow/assets/25548564/daf446b9-25f5-4bbb-84a2-2d23380bdfc9)
 
-2. After the project is created. Create a new database in MySQL WorkBench.
+2. After the project is created. Create a new database in MySQL WorkBench, i.e. BMS. Connect it on IntelliJ, top right icon Database -> Data Source -> MySql
 3. To connect the database we need to specify the following in application.properties file
 
-      spring.datasource.url=jdbc:mysql://localhost:3306/BMS
-      spring.datasource.username=root
-      spring.datasource.password=Password123!
-      spring.jpa.hibernate.ddl-auto=create
-      spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+      _**spring.datasource.url=jdbc:mysql://localhost:3306/BMS**_
+
+      _**spring.datasource.username=root**_
+
+      _**spring.datasource.password=Password123!**_
+
+      _**spring.jpa.hibernate.ddl-auto=create**_
+
+      _**spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect**_
+
+   4. Write a class in a model package, make its object in the main application file, and run. After refreshing the database, a table would be created.
 
 
