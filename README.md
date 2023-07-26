@@ -24,6 +24,6 @@ This is a project to implement ticket booking requirements in BookMyShow.
 
       _**spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect**_
 
-   4. Write a class in a model package, make its object in the main application file, and run. After refreshing the database, a table would be created.
+ 4. Write a class in a model package, make its object in the main application file, and run. After refreshing the database, a table would be created.
 
 
